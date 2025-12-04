@@ -2,12 +2,33 @@
 <html>
 <head>
     <title>My App Store</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f2f2f2; text-align: center; padding: 20px; }
+        h1 { color: #333; }
+        .app-list { margin-top: 30px; }
+        .app-item { background: #fff; padding: 15px 25px; margin: 15px auto; border-radius: 10px; max-width: 300px;
+                    box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .app-item a { text-decoration: none; color: #fff; background: #007bff; padding: 10px 20px;
+                      border-radius: 5px; display: inline-block; }
+        .app-item a:hover { background: #0056b3; }
+    </style>
 </head>
 <body>
     <h1>Welcome to My App Store</h1>
-    <p>This is your test page. Click your app links here!</p>
+    <p>Select an app to download or install:</p>
 
-    <!-- Example app link -->
-    <a href="https://example.com" target="_blank">App 1</a>
+    <div class="app-list">
+        <!-- Downloader by AFTVnews -->
+        <div class="app-item">
+            <h3>Downloader by AFTVnews</h3>
+            <a href="https://www.apkmirror.com/apk/aftvnews-com/downloader-by-aftvnews-fire-tv/" target="_blank">Go to APKMirror</a>
+        </div>
+
+        <!-- IPVanish -->
+        <div class="app-item">
+            <h3>IPVanish (Windows)</h3>
+            <a href="https://www.ipvanish.com/vpn-setup/windows/" target="_blank">Go to Official Setup</a>
+        </div>
+    </div>
 </body>
 </html>
